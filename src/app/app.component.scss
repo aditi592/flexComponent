@@ -8,13 +8,13 @@
     background-color: white;
     margin: 10px;
     padding: 20px;
-    font-size: 40px;
+    font-size: 30px;
   }
   .flexitem1{
     width: 1500px;
     height: 50px;
     margin: 20 20px;
-    word-spacing:200px;
+    word-spacing:700px;
   }
   #flex-container2 {
     display: flex;
@@ -32,7 +32,7 @@
     grid-template-columns: auto auto auto;
     background-color:pink;
     padding: 10px;
-    height: 900px;
+    height: 330px;
     grid-gap: 10px;
   }
   
