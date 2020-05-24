@@ -1,0 +1,45 @@
+#flex-container1 {
+    display: flex;
+    justify-content:centre;
+    background-color: pink;
+  }
+  
+  #flex-container1 > div ,#flex-container2 > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .flexitem1{
+    width: 1500px;
+    height: 50px;
+    margin: 20 20px;
+    word-spacing: 1100px;
+  }
+  #flex-container2 {
+    display: flex;
+    background-color:lightblue;
+  }
+  .flexitem2{
+    width: 1500px;
+    height: 50px;
+    margin: 20 20px;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:pink;
+    padding: 10px;
+    height: 500px;
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #00ffffcc;
+    border: 1px solid pink;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
